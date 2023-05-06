@@ -42,6 +42,7 @@ If you followed tutorials, include links to those here as well.
 
 ~~~~~
 [README guide](https://coding-boot-camp.github.io/full-stack/)
+[localStorage in JavaScript:A complete guide](https://blog.logrocket.com/localstorage-javascript-complete-guide/)
 
 ## License
 
