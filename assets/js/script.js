@@ -55,14 +55,19 @@ $(function () {
     // attribute of each time-block be used to do this?
     //
     
-   $('#hour-').each(function()
+   $('.time-block').each(function()
    {
     let storedContent = localStorage.getItem($(this).attr('id'))
+    console.log(storedContent)
+    
     if (storedContent){
         $(this).find('textarea').val(storedContent)
-        console.log(storedContent)
     }
    })
+
+
+
+   
 //    search(function(){ let savedContent = localStorage.getItem($(this).attr('id'))
 //     if (storedContent) {
 //         $(this).find('textarea').val(storedContent)
