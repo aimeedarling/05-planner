@@ -13,7 +13,7 @@ $(function () {
     // TODO: Add code to apply the past, present, or future class to each time
 
     $('[id^="hour-"]').each(function(){
-        let plannerTime = dayjs($(this).attr('id'), 'hour-HH').hour()
+        let plannerTime = parseInt($(this).attr('id').split("hour-").join(''));
         let now = dayjs().hour()
         if (plannerTime < now){
             $(this).addClass('past').removeClass('future present')
