@@ -18,7 +18,7 @@ Please visit the scheduler [here](https://aimeedarling.github.io/day-planner/) o
 
 Screenshot of scheduler
 
- ![alt text="screenshot of scheduler"](./assets/screenshot.png)
+![image](https://github.com/aimeedarling/day-planner/assets/127796444/ca223dee-6e27-4349-8b95-7f4c15b747ff)
     
 ## Credits
 
